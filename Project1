@@ -1,0 +1,2 @@
+import pandas as pd
+df = pd.read_csv('https://query.data.world/s/tlvy3lwflzfeopkma3jpi5e5cubeb3')
