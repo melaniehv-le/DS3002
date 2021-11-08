@@ -38,14 +38,14 @@ def csv_to_json(csvFilePath, jsonFilePath):
             #then this is appended to a json array
             jsonArray.append(row)
 
-    # convert python jsonArray to JSON String and write to file
+    # This converts it to a json string and writes it to a file
     with open(jsonFilePath, 'w', encoding='utf-8') as jsonf:
         jsonString = json.dumps(jsonArray, indent=4)
         jsonf.write(jsonString)
 
 #This calls the function, based on the paths that I specified as to where the data file is located on my computer
 csv_to_json(csvFilePath, jsonFilePath)
-json.load(jsonString)
+#json.load(jsonString)
 
 
 
