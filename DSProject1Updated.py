@@ -11,7 +11,7 @@ df = pd.read_csv('https://query.data.world/s/tlvy3lwflzfeopkma3jpi5e5cubeb3')
 #Operation Number 3: Modify number of columns, this reduces the columns by 1 after removing the Region column
 #This data set included what region of New York the death counts came from, but removing this data would be useful if trying to look at counts from New York State as a whole
 df.drop('Region', inplace=True, axis=1)
-#print(df)
+print(df)
 
 #Also imported the data files into a local file, this is the path at which the data set is located on my computer
 csvFilePath = r'/Users/melaniele/Documents/DSProject1/vital-statistics-suicide-deaths-by-age-group-race-ethnicity-resident-county-region-and-gender-beginn-1.csv'
@@ -59,3 +59,10 @@ colcount=len(df.axes[1])
 print("Number of Rows: "+str(rowcount))
 print("Number of Columns: "+str(colcount))
 print(df.columns)
+
+#This project shows Operations #1,2,3,4,and 5 successfully operating on my computer.
+# I learned a lot about converting data types, manipulating data, analyzing data, and importing data from online websites.
+# I learned how to open files, iterate files, pattern match, and output files. I also learned how to delete and add specfiic columns to an existing data set.
+# On my computer this code does not show any errors, and prints out into the command line the data set without the "Region" column,
+# along with the number of rows and columns of the data set and the names of each column 
+
