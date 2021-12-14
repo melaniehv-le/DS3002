@@ -106,4 +106,4 @@ while True:
 # The data displayed depends on information about the stock that it pulled from the Yahoo Finance website in real time for that specific company
 # This bot also has checkpoints throughout to offer an error message and an option for additional guidance or help if the stock ticker inputted is invalid
 # What makes it operational is the use of individual access keys, many nested if else statements, and the successful integration of code being executed from live data sources
-
+# This code was also uploaded onto Python Anywhere
